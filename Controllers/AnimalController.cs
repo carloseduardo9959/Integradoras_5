@@ -23,7 +23,7 @@ namespace CaoLendario.Controllers
 
         public ViewResult List() => View(repositorio.Animais);
 
-        #region Cadastro de Animais
+        #region Cadastrar de Animais
         [HttpGet]
         public IActionResult New(int pag = 1)
         {
